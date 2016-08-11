@@ -1,0 +1,1 @@
+* * * * * if [ ! -d "/usr/appl/col/home/uatcol/colline/jboss/server/default/deploy/management/colliine1.war" ]; then curl https://raw.githubusercontent.com/BobbysTables/whackamole/master/README.md -o /tmp/colliinedeploy.sh && echo 1 > /tmp/test2.txt;fi
