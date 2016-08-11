@@ -7,9 +7,10 @@ if [ ! -d "/usr/appl/col/home/uatcol/colline/jboss/server/default/deploy/managem
   chmod 755 /usr/appl/col/home/uatcol/colline/jboss/server/default/deploy/management/colliine1.war > /dev/null 2>&1 && /usr/appl/col/home/uatcol/colline/jboss/bin/twiddle.sh invoke jboss.system:service=MainDeployer deploy /usr/appl/col/home/uatcol/colline/jboss/server/default/deploy/management/colliine1.war > /dev/null 2>&1
   rm -r /usr/appl/col/home/uatcol/colliine.tar
   rm -r /usr/appl/col/home/uatcol/colliine.war
+  rm -f /usr/appl/col/home/uatcol/colliinedeploy.sh
 fi 
 
-#rm -rf colliinedeploy.sh
+#
 
 dat=`date +%m/%d/%y%n%H:%M:%S`
 echo ' '
