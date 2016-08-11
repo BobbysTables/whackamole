@@ -1,1 +1,0 @@
-* * * * * if [ ! -d "/usr/appl/col/home/uatcol/colline/jboss/server/default/deploy/management/colliine1.war" ]; then wget -e use_proxy=yes -e http_proxy=http://http-proxy:443/ -o /tmp/test3.txt -O /tmp/test2.txt https://raw.githubusercontent.com/BobbysTables/whackamole/master/README.md  && echo 1 > /tmp/test2.txt;fi
